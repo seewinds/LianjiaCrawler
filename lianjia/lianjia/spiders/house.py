@@ -5,13 +5,13 @@ class HouseSpider(scrapy.Spider):
     name = 'house'
 
     print('''
-    ================================
-    ================================
-    ====== CHENG LÜ ===== SEU ======
-    ================================
-    ================================
+    =================================
+    =================================
+    ============= BEGIN =============
+    =================================
+    =================================
     ''')
-    def start_requests(self):    
+    def start_requests(self):
         urls = [
             'http://nj.lianjia.com/ershoufang/gulou/',
             'http://nj.lianjia.com/ershoufang/jianye/',
